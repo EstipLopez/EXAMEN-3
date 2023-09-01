@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<html>
+<head>
+<style>
+body {
+  background-image: url(img/fondo-ganadero-infoganaderia-medium-size.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+</html>
+<body>
+    <div class="container">
+        <h1 class="text-center">Contactos</h1>
+        
+        <form action="mail.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Tu email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu email" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Escribe el asunto de tu mensaje" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <li ><a href="https://whatsapp.com/dl/" class="nav_enlace"><img src="img/WhatsApp-Logo,jpg.png"width="150" height="150"></a></li>
+            <li ><a href="" class="https://www.instagram.com/josuelopez6777/"><img src="img/Instagram.jpg"width="150" height="150"></a></li>
+            <li ><a href="https://www.facebook.com/josuelopez" class="nav_enlace"><img src="img/Facebook.jpg"-width="150" height="150"></a></li>
+        <p>Esta es una foto de nuestro club:</p>
+        <img src="img/logos-al-ganaderos.jpg" alt="logo" style="position: absolute; right: 200px; left: 200px;"> 
