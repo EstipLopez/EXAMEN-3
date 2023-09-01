@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de inicio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<html>
+<head>
+<style>
+body {
+  background-image: url(img/Un-fondo-de-US-3000-millones-para-la-soja-y-la-ganaderia-sostenibles-768x444.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+</html>
+<div>
+  
+  <h1 class="titulo">CLUB GANADERO PORVENIR</h1> <!-- Título -->
+  
+  <img src="img/logos-al-ganaderos.jpg" alt="logo" style="position: absolute; right: 900px; left: 900px;"> 
+  
+
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactos.html">CONTACTOS</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-8">
+      <h2>Noticias</h2>
+      <div class="card mb-3">
+        <img src="img/NOTICIA. 1.webp" alt="Noticia 1" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Noticia 1</h5>
+          <p class="card-text">EL FUTURO DE LA GANADERIA ES SOLO CON LA EXPORTACION DE CARNE: Puedes leer más haciendo clic en el botón de abajo.</p>
+          <p class="card-text"><small class="text-muted">Publicado el  Viernes, 1 de septiembre de 2023</small></p>
+          <a href="https://www.lavoz.com.ar/agro/ganaderia/el-futuro-de-la-ganaderia-es-solo-con-la-exportacion-de-carne/" class="btn btn-primary">Leer más</a> 
+
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/NOTICIA.2" alt="Noticia 2" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Noticia 2</h5>
+          <p class="card-text">Ganaderos cuentan con excedentes de más de 70.000 toneladas de carne para exportación: Puedes leer más haciendo clic en el botón de abajo.</p>
+          <p class="card-text"><small class="text-muted">Publicado el 31/08/2023</small></p>
+          <a href="https://eju.tv/2023/08/ganaderos-cuentan-con-excedentes-de-mas-de-70-000-toneladas-de-carne-para-exportacion/" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h2>Quienes somos</h2>
+      
+      <p class="letras">Somos una plataforma de contactos para personas que se dedican a la ganadería. Nuestro objetivo es facilitar la comunicación y el intercambio de información entre los miembros de nuestra comunidad.</p>
+      <h2>Estadísticas</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Miembros activos: 1234</li>
+        <li class="list-group-item">Cabezas de ganado: 5678</li>
+        <li class="list-group-item">Mensajes enviados: 91011</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
